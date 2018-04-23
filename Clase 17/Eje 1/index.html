@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>clase 16</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+  <div class="conteiner">
+    <div class="row">
+      <div class="col-md-8">
+
+        <div id='lista-articulos'>
+          <div class="post" v-for='articulo in posteos'>
+            <h2><a href="#">{{ articulo.title }}</a></h2>
+            <img v:bind:src="articulo.image" alt="">
+            <div v-html='articulo.content'></div>
+            <p>Autor: <strong>{{ articulo.author }}</strong></p>
+            <a v-bind:href="#"></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Vue -->
+  <script src= "https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.2/vue.min.js"></script>
+  <!-- JS de jQuery -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+  <!-- JS de Bootstrap -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+  <!-- mi js -->
+  <script src=js/app.js></script>
+</body>
+</html>

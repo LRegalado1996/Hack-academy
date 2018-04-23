@@ -1,0 +1,28 @@
+#a , #c , #Pf{
+    width: 150px;
+    height: 50px;
+}
+#b , #d {
+    width: 75px;
+    height: 50px;
+}
+#Pf {
+  color: White;
+  background-color: yellow;
+  text-align: center;
+  line-height: 50px;
+}
+#a {
+  background-color: red;
+}
+
+#b {
+  background-color: green;
+}
+#c {
+  background-color: blue;
+}
+#d {
+  background-color: skyblue;
+  margin: auto;
+}

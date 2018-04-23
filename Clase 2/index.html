@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Clase 2</title>
+    <style>
+      body {
+        background-image: url(img/fondo.jpg);
+        font: 20px Calibri; /* letra tamano y tipo */
+        margin: 5px; /* margen del body */
+        padding-top: 10px;
+        padding-left: 25px;
+        border: 10px dotted #29965c;
+        text-align: center ;
+      }
+      #hola {
+        background-color:  #4bde68;
+        position: absolute;
+        padding-right: 10px;
+        padding-left: 5px;
+        padding-bottom: 200px;
+        margin-left: 0px;
+        margin-top: -100px;
+        line-height: 30px;
+        text-align: justify;
+      }
+      #hola em {
+        background-color: black;
+        color: red;
+      }
+      .menu {
+        border: 5px solid grey;
+        background-color: red;
+      }
+      a:hover {
+        background-color: yellow;
+      }
+      a:visited {
+        color: grey;
+      }
+      a:link {
+        color: brown;
+      }
+      a:active {
+        background-color: violet;
+      }
+      a:focus  {
+        background-color: black;
+        border: 5px solid;
+      }
+
+      .chau {
+        background-color:  #266615;
+      }
+      h1 {
+        font-size: 50px;
+        font-family: Cooper Black;
+        text-decoration: underline;
+        margin-top: -10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Perritos</h1>
+    <div class="menu">
+      <a href="nosotros.html">primera</a>
+      <a href="ustedes.html">segunda</a>
+    </div>
+    <p class="chau">mi contenido</p>
+    <br>
+    <em>Enfasis</em>  y <strong class="chau">Negrita</strong>
+    <div id="hola">
+      <ul>
+              <li>item a</li> <!-- elementos hijos de ul -->
+              <li>Item b</li>
+              <li>item <em>hola</em> c</li>
+      </ul>
+      <ol> <!-- lista numerada -->
+        <li>numero 1</li> <!-- elementos hijos de ol -->
+        <li>numero 2</li>
+        <li>numero 3</li>
+      </ol>
+      </div>
+      <a href="nosotros.html"> ME fui a la otra pagina</a> <!-- link hacia la otra pagina -->
+      <br>
+    <img src="img/perro1.png" alt="Cachorrito" height="350px" > <!-- alt= texto si no tuviera imagen es lo que muestra --> <!--src=ruta completa de la imagen -->
+
+    <!-- chanchada -->
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <form action="hola.asp">
+      Nombre: <input type="password" name="nombre"><br>
+     <input type="submit" value="aceptar">
+   </form>
+
+  </body>
+
+</html>

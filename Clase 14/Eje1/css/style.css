@@ -1,0 +1,15 @@
+.btn {
+  padding: 5px;
+}
+
+#lista {
+  padding: 5px;
+  background-color: lightblue;
+  border: solid 1px black;
+}
+
+#menu {
+  padding: 5px;
+  background-color: lightyellow;
+  border: solid 1px black;
+}

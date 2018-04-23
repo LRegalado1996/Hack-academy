@@ -1,0 +1,67 @@
+body{
+  text-align: justify;
+  background-color: #BBF0A3;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+}
+
+#logo {
+  width: 20px;
+}
+
+h1 {
+  background-image: url("../img/paisaje.jpg");
+  position: absolute;
+  top: 30px;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  color: white;
+  font-size: 100px;
+  line-height: 500px;
+  text-align: center;
+  font-family: 'Barrio', cursive;
+}
+@media all and (max-width: 500px) {
+    h1  {
+        font-size: 60px;
+    }
+}
+
+@media all and (max-width: 225px) {
+    h1  {
+        font-size: 25px;
+    }
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Barrio', cursive;
+}
+
+#parrafo {
+  position: absolute;
+  top: 600px;
+}
+
+#video {
+  width: 100%;
+}
+
+#final  {
+  position: absolute;
+  top: 1500px;
+  width: 100%;
+  height: 100px;
+  background-color: lightgreen;
+}
+
+.texto {
+  padding: 5%;
+}
+
+@media all and (min-width: 800px) {
+  .texto {
+    padding: 2%;
+  }
+}

@@ -1,0 +1,54 @@
+body {
+  background-image: url(../img/fondo.jpg);
+  font: 20px Calibri; /* letra tamano y tipo */
+  margin: 5px; /* margen del body */
+  padding-top: 10px;
+  padding-left: 25px;
+  border: 10px dotted #29965c;
+  text-align: center ;
+}
+#hola {
+  background-color:  #4bde68;
+  position: absolute;
+  padding-right: 10px;
+  padding-left: 5px;
+  padding-bottom: 200px;
+  margin-left: 0px;
+  margin-top: -100px;
+  line-height: 30px;
+  text-align: justify;
+}
+#hola em {
+  background-color: black;
+  color: red;
+}
+.menu {
+  border: 5px solid grey;
+  background-color: red;
+}
+a:hover {
+  background-color: yellow;
+}
+a:visited {
+  color: grey;
+}
+a:link {
+  color: brown;
+}
+a:active {
+  background-color: violet;
+}
+a:focus  {
+  background-color: black;
+  border: 5px solid;
+}
+
+.chau {
+  background-color:  #266615;
+}
+h1 {
+  font-size: 50px;
+  font-family: Cooper Black;
+  text-decoration: underline;
+  margin-top: -10px;
+}

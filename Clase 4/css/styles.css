@@ -1,0 +1,41 @@
+#ejemplo1 {
+  width: 400px;
+  height: 200px;
+  background-color: skyblue;
+  position: static; /* valor por defecto */
+}
+
+#ejemplo2 {
+    width: 300px;
+    height: 150px;
+    background: red;
+    position: relative; /* su valor es a partir de donde esta originalmente */
+    /* top: 20px; */
+}
+
+#ejemplo3 {
+  width: 50px;
+  height: 50px;
+  background: lightgreen;
+  position: absolute; /* se ubica donde el quiere tomando el cuenta el padre mas cercano que no sea static */
+  top: 10px;
+  left: 10px;
+}
+
+#ejemplo4 {
+  width: 100%;
+  height: 30px;
+
+  background: grey;
+  position: fixed; /* Se ubica con respecto a la pantalla que ve el usuario */
+  top: 0px;
+  right: 0px;
+}
+#ejemplo5 {
+  width: 100%;
+  height: 30px;
+  background: violet;
+  position: fixed; /* Se ubica con respecto a la pantalla que ve el usuario */
+  bottom: 0px;
+  right: 0px;
+}

@@ -1,0 +1,33 @@
+body {
+  background-color: white;
+  margin: 0px;
+}
+p {
+  color: white;
+}
+#a {
+  background-color: blue;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  height: 100px;
+  width: 100%;
+  line-height: 75px;
+  text-align: center;
+}
+#b {
+  background-color: orange;
+  float: left;
+  height: 500px;
+  width: 10%;
+  line-height: 495px;
+  text-align: center;
+}
+#c {
+  background-color: green;
+  float: left;
+  height: 500px;
+  width: 90%;
+  line-height: 495px;
+  text-align: center;
+}

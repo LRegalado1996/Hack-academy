@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+    <h1>Formulario</h1>
+    <br>
+    <form method="post">
+      <div >
+        <label for="email">Email:</label>
+        <input type="text" name="email" placeholder="Ingresar Email..">
+      </div>
+      <div>
+        <br>
+        <label for="departamento" name="depatamento" >Departamento</label>
+        <select name="ComboBox" required="required" >
+          <option value="">(Seleccione un departamento)</option>
+          <option value="mvd">Montevideo</option>
+          <option value="can">Canelones</option>
+          <option value="sjo">San Jose</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label>
+          <input type="radio" name="sabe_html" value="s" checked="checked">si
+        </label>
+        <label>
+          <input type="radio" name="sabe_html" value="n">no
+        </label>
+      </div>
+      <br>
+      <div>
+        <label>Comentario:
+        <textarea name="Comentario" rows="5" cols="80" placeholder="Ingresar Cometario"></textarea>
+        </label>
+      </div>
+      <br>
+      <div>
+        <button type="submit" name="button">Enviar</button>
+        <button type="reset" name="button">Borrar</button>
+      </div>
+
+    </form>
+
+  </body>
+</html>

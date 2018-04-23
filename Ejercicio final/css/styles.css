@@ -1,0 +1,46 @@
+/* Mi código CSS */
+#fotos {
+  position: absolute;
+  top: 25px;
+
+}
+
+.foto {
+  width: 100%;
+  height: 600px;
+  background-color: grey;
+}
+#img1 {
+  background-image: url(img/audi_1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#img2 {
+  background-image: url(img/audi_2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#img3 {
+  background-image: url(img/audi_q7.jpg);
+  background-position: center;
+  background-size:
+}
+
+#img4 {
+  background-image: url(img/audi_r8.jpg);
+  background-position: center;
+}
+
+
+#filtro, #posts {
+  position: absolute;
+  top: 150px;
+}
+
+#img_auto {
+  float: left;
+  height: 100px;
+
+}

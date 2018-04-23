@@ -1,0 +1,20 @@
+#ejemplo1 {
+  width: 400px;
+  height: 200px;
+  background-color: skyblue;
+  display: inline-block;
+}
+
+#ejemplo2 {
+  width: 400px;
+  height: 200px;
+  background: red;
+  display: inline-block;
+  text-align: center;
+}
+#ejemplo3 {
+  width: 200px;
+  height: 100px;
+  background: black;
+  display: inline-block;
+}

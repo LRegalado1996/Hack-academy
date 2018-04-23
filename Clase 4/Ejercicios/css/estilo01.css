@@ -1,0 +1,29 @@
+body {
+  background-color: skyblue;
+}
+div {
+  height: 100px;
+  width: 100px;
+}
+p {
+  line-height: 50px;
+  text-align: center;
+}
+#a , #b {
+  background-color: orange;
+    position: absolute;
+    top: 0px
+}
+#c , #d {
+  background-color: blue;
+  position: absolute;
+  top: 150px
+}
+#a , #c {
+    position: absolute;
+    right: 0px
+}
+#b , #d {
+  position: absolute;
+  left: 0px;
+}

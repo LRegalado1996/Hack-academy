@@ -1,0 +1,19 @@
+body {
+  background-color: green;
+}
+
+#boton1 , #boton2 {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+div {
+  position: relative;
+  top: 250px;
+  background-color: pink;
+}
+
+/*.importante {
+  color: red;
+}*/

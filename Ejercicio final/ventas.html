@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Automotora dedicada a la venta de los mejores autos del mercado - Nuevos y Usados">
+  <meta name="author" content="Automotora VIP">
+
+	<title>Ventas | Automotora VIP</title>
+
+	<!-- CSS de Bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- CSS Font Awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!-- CSS Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+	<!-- CSS Propio -->
+	<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	        <a href="index.html"><img class="navbar-brand" alt="Brand" src="img/automotora_vip_logo.png" id='logo'></a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="ventas.html">Ventas 0km</a></li>
+	        <li><a href="ventas.html">Ventas usados</a></li>
+	        <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+	        <li data-toggle="modal" data-target="#modal1"><a href="#" >Contacto</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<!-- filtro -->
+				<div id="filtro">
+					<form>
+						<h3>Filtro</h3>
+						<div class="form-group">
+							<label>Año</label>
+							<select class="form-control" id='combo1' name=" ">
+								<option value="" >Seleccione un año</option>
+							</select>
+						</div>
+						<!-- filtro de marca -->
+						<div class="form-group">
+							<label>Marca</label>
+							<select class="form-control" id='combo2' name=" ">
+								<option value="" >Seleccionar..</option>
+							</select>
+						</div>
+						<!-- fin filtro de marca -->
+
+						<div class="form-group">
+							<label>Modelo</label>
+							<select class="form-control" id='combo3' name=" ">
+								<option value="" >Seleccionar..</option>
+							</select>
+						</div>
+						<button id='filtrar' type="button" name="button" class='form-control btn btn-warning btn-group-justified'>Filtrar</button>
+					</form>
+				</div>
+				<!-- fin del filtrar -->
+			</div>
+			<div class="col-md-10">
+				<!-- cargar datos de autos -->
+				<div id="posts">
+					<div class="post" v-for="post in posts">
+						<h2>{{post.brand}}<strong>{{post.model}}</strong></h2>
+						<img id='img_auto' v-bind:src="post.image" v-bind:alt="post.model" />
+						<p>{{post.description}}</p>
+						<div v-html="post.content"></div>
+						<a v-bind:href="post.url" class="btn btn-success btn-sm">Comprar</a>
+						<a v-bind:href="post.url" class="btn btn-default btn-sm">Mas informacion</a>
+						<a v-bind:href="post.url" class="btn btn-default btn-sm">Comprar</a>
+					</div><!-- /.post -->
+				</div><!-- /#posts -->
+			</div><!-- /.col -->
+				<!-- fin de cargar datos de autos -->
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- JS de Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- JS de Vue.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.2/vue.min.js"></script>
+	<!-- JS Propio -->
+	<script src="js/app.js"> </script>
+
+
+</body>
+
+</html>

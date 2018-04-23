@@ -1,0 +1,36 @@
+body {
+  background-color: grey;
+}
+p {
+  color: white;
+}
+.cuadrado {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+.texto {
+  height: 33px;
+  width: 100px;
+  text-align: center;
+}
+#conteiner {
+
+}
+#a {
+  position: fixed;
+  left: 4em;
+  top: 10px;
+}
+#b {
+  position: fixed;
+  right: 4em;
+  top: 10px;
+}
+#c {
+  position: fixed;
+  left: 18em;
+  top: 10px;
+}

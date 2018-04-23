@@ -1,0 +1,23 @@
+#b , #a  {
+  text-align: center;
+  padding: 10px;
+  border: 10px solid black;
+  position:  absolute;
+  margin: 100px;
+
+}
+#b {
+  transform: rotateY(-90deg);
+}
+
+
+#a:hover {
+  transform: rotateY(90deg);
+  transition: 5s;
+  background: skyblue;
+}
+#b {
+  transform: rotateY(0deg);
+  transition: 5s;
+  background: red;
+}
